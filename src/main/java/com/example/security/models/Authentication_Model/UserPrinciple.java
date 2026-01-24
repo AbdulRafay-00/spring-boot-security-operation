@@ -26,14 +26,14 @@ public class UserPrinciple implements UserDetails {
 
     @Override
     public @Nullable String getPassword() {
- 
-        return userAuth_DB.getuser_pass();
+
+        return userAuth_DB.getUser_pass();
     }
 
     @Override
     public String getUsername() {
 
-        return userAuth_DB.getuser_name();
+        return userAuth_DB.getUser_name();
     }
     
 }
